@@ -1,0 +1,7 @@
+1.Print numbers from 1 to 10 using all the loops..eg,for,while ,dowhile
+ Program to calculate the sum of first n natural numbers( Positive integers 1,2,3...n are known as natural numbers).
+write a c Program to display a number if it is negative.
+write a c progam toCheck whether an integer is odd or even
+write a c program to check whether the entered numbers are equal ,greater or lesser using relational operator.
+write a c program to find the largest of 3 numbers .
+write a c program to find the largest of 3 numbers using nested if.

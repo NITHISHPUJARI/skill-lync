@@ -1,0 +1,81 @@
+akshay@akshayv:Chapter3_Memory_Management$ gdb ./stack_growth_example 
+GNU gdb (Ubuntu 12.1-0ubuntu1~22.04) 12.1
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ./stack_growth_example...
+(gdb) break main
+Breakpoint 1 at 0x11f1: file stack_growth_example.c, line 23.
+(gdb) break func
+Breakpoint 2 at 0x1179: file stack_growth_example.c, line 6.
+(gdb) run
+Starting program: /home/akshay/TrainingMaterial/Module3_SystemProgramming_Using_C/Chapter3_Memory_Management/stack_growth_example 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, main () at stack_growth_example.c:23
+23      {
+(gdb) n
+25          int main_local = 1;
+(gdb) p &main_local
+$1 = (int *) 0x7fffffffdaf4
+(gdb) c
+Continuing.
+
+Breakpoint 2, func (arg_addr=0x7fffffffdaf4) at stack_growth_example.c:6
+6       {
+(gdb) n
+8           int func_local = 2;
+(gdb) p &func_local
+$2 = (int *) 0x7fffffffdad4
+(gdb) c
+Continuing.
+Stack grows downward
+
+Breakpoint 2, func (arg_addr=0x7fffffffdad4) at stack_growth_example.c:6
+6       {
+(gdb) p &func_local
+$3 = (int *) 0x7fffffffdaa4
+(gdb) bt
+#0  func (arg_addr=0x7fffffffdad4) at stack_growth_example.c:6
+#1  0x00005555555551ce in func (arg_addr=0x7fffffffdaf4) at stack_growth_example.c:19
+#2  0x0000555555555213 in main () at stack_growth_example.c:27
+(gdb) info frame 2
+Stack frame at 0x7fffffffdb10:
+ rip = 0x555555555213 in main (stack_growth_example.c:27); saved rip = 0x7ffff7da4d90
+ caller of frame at 0x7fffffffdaf0
+ source language c.
+ Arglist at 0x7fffffffdb00, args: 
+ Locals at 0x7fffffffdb00, Previous frame's sp is 0x7fffffffdb10
+ Saved registers:
+  rbp at 0x7fffffffdb00, rip at 0x7fffffffdb08
+(gdb) info frame 1
+Stack frame at 0x7fffffffdaf0:
+ rip = 0x5555555551ce in func (stack_growth_example.c:19); saved rip = 0x555555555213
+ called by frame at 0x7fffffffdb10, caller of frame at 0x7fffffffdac0
+ source language c.
+ Arglist at 0x7fffffffdae0, args: arg_addr=0x7fffffffdaf4
+ Locals at 0x7fffffffdae0, Previous frame's sp is 0x7fffffffdaf0
+ Saved registers:
+  rbp at 0x7fffffffdae0, rip at 0x7fffffffdae8
+(gdb) info frame 0
+Stack frame at 0x7fffffffdac0:
+ rip = 0x555555555179 in func (stack_growth_example.c:6); saved rip = 0x5555555551ce
+ called by frame at 0x7fffffffdaf0
+ source language c.
+ Arglist at 0x7fffffffdab0, args: arg_addr=0x7fffffffdad4
+ Locals at 0x7fffffffdab0, Previous frame's sp is 0x7fffffffdac0
+ Saved registers:
+  rbp at 0x7fffffffdab0, rip at 0x7fffffffdab8
+(gdb) 

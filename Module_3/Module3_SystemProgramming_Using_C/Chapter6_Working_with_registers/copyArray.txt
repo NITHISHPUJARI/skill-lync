@@ -1,0 +1,21 @@
+copyArray:
+.LFB12:
+	.cfi_startproc
+	endbr64
+	movslq	%edi, %rax
+	movq	%rsi, %rdi
+	movq	%rdx, %rsi
+	testl	%eax, %eax
+	jle	.L1
+	leaq	0(,%rax,4), %rdx
+	jmp	memcpy@PLT
+	.p2align 4,,10
+	.p2align 3
+.L1:
+	ret
+	.cfi_endproc
+.LFE12:
+	.size	copyArray, .-copyArray
+	.p2align 4
+	.globl	FuncCopyArray
+	.type	FuncCopyArray, @function
