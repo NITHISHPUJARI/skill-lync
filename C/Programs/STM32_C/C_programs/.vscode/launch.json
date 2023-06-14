@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/nithish/Documents/SkillLync/C/Programs/STM32_C/C_programs",
+      "program": "/Users/nithish/Documents/SkillLync/C/Programs/STM32_C/C_programs/build/Debug/outDebug"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+
+Circuit: Led_on.simu
+
+Bill of Materials:
+
+Led-13 : Led   
+Led-14 : Led   
+Led-15 : Led   
+Led-2 : Led   
+Resistor-3 : Resistor 100 Ω
+Resistor-34 : Resistor 100 Ω
+Resistor-35 : Resistor 100 Ω
+Resistor-36 : Resistor 100 Ω
+atmega32-1 : atmega32   
