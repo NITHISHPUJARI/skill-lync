@@ -1,0 +1,10 @@
+17:12:07 **** Incremental Build of configuration Debug for project EXT_Int_Bare ****
+make -j7 all 
+arm-none-eabi-size   EXT_Int_Bare.elf 
+   text	   data	    bss	    dec	    hex	filename
+    760	      8	   1568	   2336	    920	EXT_Int_Bare.elf
+Finished building: default.size.stdout
+ 
+
+17:12:07 Build Finished. 0 errors, 0 warnings. (took 197ms)
+

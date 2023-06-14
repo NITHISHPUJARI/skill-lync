@@ -1,0 +1,10 @@
+10:59:19 **** Incremental Build of configuration Debug for project Concurrency_async ****
+make -j7 all 
+arm-none-eabi-size   Concurrency_async.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21740	     28	   8716	  30484	   7714	Concurrency_async.elf
+Finished building: default.size.stdout
+ 
+
+10:59:19 Build Finished. 0 errors, 0 warnings. (took 261ms)
+

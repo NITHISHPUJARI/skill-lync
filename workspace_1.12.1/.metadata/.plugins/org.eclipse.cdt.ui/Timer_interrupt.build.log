@@ -1,0 +1,10 @@
+11:55:41 **** Build of configuration Debug for project Timer_interrupt ****
+make -j7 all 
+arm-none-eabi-size   Timer_interrupt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21300	     28	   8724	  30052	   7564	Timer_interrupt.elf
+Finished building: default.size.stdout
+ 
+
+11:55:41 Build Finished. 0 errors, 0 warnings. (took 274ms)
+

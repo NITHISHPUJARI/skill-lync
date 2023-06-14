@@ -1,0 +1,10 @@
+12:56:54 **** Incremental Build of configuration Debug for project Co-Operative_scheduler ****
+make -j7 all 
+arm-none-eabi-size   Co-Operative_scheduler.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19256	     28	   8708	  27992	   6d58	Co-Operative_scheduler.elf
+Finished building: default.size.stdout
+ 
+
+12:56:54 Build Finished. 0 errors, 0 warnings. (took 310ms)
+

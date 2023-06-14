@@ -1,0 +1,9 @@
+main.c:97:6:SystemClock_Config	1
+main.c:104:6:Peripherals_Init	1
+main.c:126:6:BMP280_Init	1
+main.c:139:6:I2C_DEVICE_Check	3
+main.c:155:6:I2C_DEVICE_Init	1
+main.c:164:6:I2C_DEVICE_cali	8
+main.c:214:6:BMP280_calc_values	11
+main.c:314:6:delay	2
+main.c:319:5:main	2

@@ -1,0 +1,10 @@
+16:15:49 **** Build of configuration Debug for project LDR_Queue ****
+make -j7 all 
+arm-none-eabi-size   LDR_Queue.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26220	    128	   8840	  35188	   8974	LDR_Queue.elf
+Finished building: default.size.stdout
+ 
+
+16:15:50 Build Finished. 0 errors, 0 warnings. (took 183ms)
+

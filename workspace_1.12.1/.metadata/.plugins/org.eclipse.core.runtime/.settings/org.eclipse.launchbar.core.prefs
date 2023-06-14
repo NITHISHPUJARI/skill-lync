@@ -1,0 +1,12 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=macosx
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:17th_may Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ADC Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Co-Operative_scheduler Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Counting_Semaphore Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Event_group Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Lab_5 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:MailBox Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Semaphore Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ST_Queue Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Task,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Timer Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Timer_interrupt Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Queue_new Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Switch_Semaphore Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:mutex Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Concurrency_async Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Ext_interupt Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Event_group_Project Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Timer_project Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LDR_Queue Debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:17th_may\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:17th_may\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Endian\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LDR_Queue\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Lab_5\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Task/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Task/activeLaunchTarget=null\:---

@@ -1,0 +1,21 @@
+16:56:42 **** Incremental Build of configuration Debug for project UART_RX_GPT ****
+make -j7 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DNUCLEO_G070RB -DSTM32G070RBTx -DSTM32 -DSTM32G0 -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "UART_RX_GPT.elf" @"objects.list"   -mcpu=cortex-m0plus -T"/Users/nithish/STM32CubeIDE/Bare_metal/UART_RX_GPT/STM32G070RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART_RX_GPT.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UART_RX_GPT.elf
+ 
+arm-none-eabi-size   UART_RX_GPT.elf 
+arm-none-eabi-objdump -h -S  UART_RX_GPT.elf  > "UART_RX_GPT.list"
+   text	   data	    bss	    dec	    hex	filename
+    584	      8	   1568	   2160	    870	UART_RX_GPT.elf
+Finished building: default.size.stdout
+ 
+Finished building: UART_RX_GPT.list
+ 
+16:56:48 **** Incremental Build of configuration Debug for project UART_RX_GPT ****
+make -j7 all 
+arm-none-eabi-size   UART_RX_GPT.elf 
+   text	   data	    bss	    dec	    hex	filename
+    584	      8	   1568	   2160	    870	UART_RX_GPT.elf
+Finished building: default.size.stdout
+ 

@@ -1,0 +1,10 @@
+12:56:56 **** Build of configuration Debug for project Semaphore ****
+make -j7 all 
+arm-none-eabi-size   Semaphore.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21680	     28	   8708	  30416	   76d0	Semaphore.elf
+Finished building: default.size.stdout
+ 
+
+12:56:56 Build Finished. 0 errors, 0 warnings. (took 264ms)
+

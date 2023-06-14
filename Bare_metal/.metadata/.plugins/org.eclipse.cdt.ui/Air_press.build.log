@@ -1,0 +1,10 @@
+21:56:26 **** Incremental Build of configuration Debug for project Air_press ****
+make -j7 all 
+arm-none-eabi-size   Air_press.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16160	    108	   1604	  17872	   45d0	Air_press.elf
+Finished building: default.size.stdout
+ 
+
+21:56:26 Build Finished. 0 errors, 0 warnings. (took 195ms)
+

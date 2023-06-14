@@ -1,0 +1,16 @@
+connections/org.eclipse.remote.serial.core.connectionType/STM32/serial.baudRate=11
+connections/org.eclipse.remote.serial.core.connectionType/STM32/serial.byteSize=3
+connections/org.eclipse.remote.serial.core.connectionType/STM32/serial.parity=0
+connections/org.eclipse.remote.serial.core.connectionType/STM32/serial.portName=/dev/cu.usbmodem11403
+connections/org.eclipse.remote.serial.core.connectionType/STM32/serial.stopBits=0
+connections/org.eclipse.remote.serial.core.connectionType/Serial_port+/serial.baudRate=11
+connections/org.eclipse.remote.serial.core.connectionType/Serial_port+/serial.byteSize=3
+connections/org.eclipse.remote.serial.core.connectionType/Serial_port+/serial.parity=0
+connections/org.eclipse.remote.serial.core.connectionType/Serial_port+/serial.portName=/dev/cu.usbmodem11403
+connections/org.eclipse.remote.serial.core.connectionType/Serial_port+/serial.stopBits=0
+connections/org.eclipse.remote.serial.core.connectionType/inter/serial.baudRate=11
+connections/org.eclipse.remote.serial.core.connectionType/inter/serial.byteSize=3
+connections/org.eclipse.remote.serial.core.connectionType/inter/serial.parity=0
+connections/org.eclipse.remote.serial.core.connectionType/inter/serial.portName=/dev/cu.wlan-debug
+connections/org.eclipse.remote.serial.core.connectionType/inter/serial.stopBits=0
+eclipse.preferences.version=1

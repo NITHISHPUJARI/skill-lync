@@ -1,0 +1,17 @@
+20:41:19 **** Incremental Build of configuration Debug for project Main_project ****
+make -j7 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DNUCLEO_G070RB -DSTM32G070RBTx -DSTM32 -DSTM32G0 -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Main_project.elf" @"objects.list"   -mcpu=cortex-m0plus -T"/Users/nithish/STM32CubeIDE/Bare_metal/Main_project/STM32G070RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Main_project.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Main_project.elf
+ 
+arm-none-eabi-size   Main_project.elf 
+arm-none-eabi-objdump -h -S  Main_project.elf  > "Main_project.list"
+   text	   data	    bss	    dec	    hex	filename
+   4524	    108	   1588	   6220	   184c	Main_project.elf
+Finished building: default.size.stdout
+ 
+Finished building: Main_project.list
+ 
+
+20:41:19 Build Finished. 0 errors, 0 warnings. (took 356ms)
+

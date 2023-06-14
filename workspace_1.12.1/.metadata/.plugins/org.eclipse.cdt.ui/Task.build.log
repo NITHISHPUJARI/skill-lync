@@ -1,0 +1,10 @@
+12:56:57 **** Build of configuration Debug for project Task ****
+make -j7 all 
+arm-none-eabi-size   Task.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19660	     28	   8708	  28396	   6eec	Task.elf
+Finished building: default.size.stdout
+ 
+
+12:56:57 Build Finished. 0 errors, 0 warnings. (took 270ms)
+

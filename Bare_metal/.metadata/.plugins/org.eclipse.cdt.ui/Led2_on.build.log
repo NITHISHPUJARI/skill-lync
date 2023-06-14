@@ -1,0 +1,17 @@
+12:30:37 **** Incremental Build of configuration Debug for project Led2_on ****
+make -j7 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DNUCLEO_G070RB -DSTM32G070RBTx -DSTM32 -DSTM32G0 -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Led2_on.elf" @"objects.list"   -mcpu=cortex-m0plus -T"/Users/nithish/STM32CubeIDE/Bare_metal/Led2_on/STM32G070RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Led2_on.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Led2_on.elf
+ 
+arm-none-eabi-size   Led2_on.elf 
+arm-none-eabi-objdump -h -S  Led2_on.elf  > "Led2_on.list"
+   text	   data	    bss	    dec	    hex	filename
+    672	      8	   1568	   2248	    8c8	Led2_on.elf
+Finished building: default.size.stdout
+ 
+Finished building: Led2_on.list
+ 
+
+12:30:38 Build Finished. 0 errors, 0 warnings. (took 499ms)
+

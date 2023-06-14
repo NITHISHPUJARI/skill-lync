@@ -1,0 +1,29 @@
+22:44:34 **** Incremental Build of configuration Debug for project Oled ****
+make -j7 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DNUCLEO_G070RB -DSTM32G070RBTx -DSTM32 -DSTM32G0 -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+In file included from ../Inc/stm32g0xx.h:119,
+                 from ../Src/main.c:19:
+../Src/main.c: In function 'ssd1315_init':
+../Inc/stm32g070xx.h:3344:38: warning: conversion from 'long unsigned int' to 'uint8_t' {aka 'unsigned char'} changes value from '33554432' to '0' [-Woverflow]
+ 3344 | #define I2C_CR2_AUTOEND_Msk          0x02000000UL    /*!< 0x02000000 */
+      |                                      ^~~~~~~~~~~~
+../Inc/stm32g070xx.h:3345:38: note: in expansion of macro 'I2C_CR2_AUTOEND_Msk'
+ 3345 | #define I2C_CR2_AUTOEND              I2C_CR2_AUTOEND_Msk /*!< Automatic end mode (master mode) */
+      |                                      ^~~~~~~~~~~~~~~~~~~
+../Src/main.c:88:33: note: in expansion of macro 'I2C_CR2_AUTOEND'
+   88 |     i2c_start(SSD1315_I2C_ADDR, I2C_CR2_AUTOEND);
+      |                                 ^~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Oled.elf" @"objects.list"   -mcpu=cortex-m0plus -T"/Users/nithish/STM32CubeIDE/Bare_metal/Oled/STM32G070RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Oled.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Oled.elf
+ 
+arm-none-eabi-size   Oled.elf 
+arm-none-eabi-objdump -h -S  Oled.elf  > "Oled.list"
+   text	   data	    bss	    dec	    hex	filename
+    960	      8	   1568	   2536	    9e8	Oled.elf
+Finished building: default.size.stdout
+ 
+Finished building: Oled.list
+ 
+
+22:44:34 Build Finished. 0 errors, 1 warnings. (took 489ms)
+

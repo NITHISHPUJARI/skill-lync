@@ -1,0 +1,13 @@
+main.c:66:6:I2C_Init	1
+main.c:87:6:I2C_StartTransmission	4
+main.c:111:6:I2C_StopTransmission	2
+main.c:120:6:I2C_WriteByte	2
+main.c:129:9:I2C_ReadByte	2
+main.c:146:6:OLED_Init	1
+main.c:179:6:OLED_WriteData	1
+main.c:188:9:BMP280_ReadPressure	1
+main.c:207:6:LIS3DH_ReadAccelerometer	1
+main.c:231:6:OLED_DisplayChar	2
+main.c:238:6:OLED_DisplayString	2
+main.c:247:6:OLED_DisplayInt	1
+main.c:253:5:main	2

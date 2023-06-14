@@ -1,0 +1,10 @@
+09:30:16 **** Incremental Build of configuration Debug for project LDR_dma ****
+make -j7 all 
+arm-none-eabi-size   LDR_dma.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10580	     20	   1764	  12364	   304c	LDR_dma.elf
+Finished building: default.size.stdout
+ 
+
+09:30:16 Build Finished. 0 errors, 0 warnings. (took 312ms)
+

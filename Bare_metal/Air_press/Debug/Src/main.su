@@ -1,0 +1,9 @@
+../Src/main.c:97:6:SystemClock_Config	8	static
+../Src/main.c:104:6:Peripherals_Init	8	static
+../Src/main.c:126:6:BMP280_Init	8	static
+../Src/main.c:139:6:I2C_DEVICE_Check	8	static
+../Src/main.c:155:6:I2C_DEVICE_Init	8	static
+../Src/main.c:164:6:I2C_DEVICE_cali	16	static
+../Src/main.c:214:6:BMP280_calc_values	232	static,ignoring_inline_asm
+../Src/main.c:314:6:delay	24	static
+../Src/main.c:319:5:main	16	static,ignoring_inline_asm

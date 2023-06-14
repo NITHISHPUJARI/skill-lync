@@ -1,0 +1,10 @@
+16:16:36 **** Incremental Build of configuration Debug for project SPI_MOSI ****
+make -j7 all 
+arm-none-eabi-size   SPI_MOSI.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8424	     20	   1692	  10136	   2798	SPI_MOSI.elf
+Finished building: default.size.stdout
+ 
+
+16:16:36 Build Finished. 0 errors, 0 warnings. (took 202ms)
+

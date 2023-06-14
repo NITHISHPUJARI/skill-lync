@@ -1,0 +1,17 @@
+adc_int
+adc_dma
+adc_res
+adc_res_ldr
+adc_int_ldr
+adc_dma_ldr
+adc_res_snd
+adc_int_snd
+adc_dma_snd
+ext_int
+uart_rx
+usart_rx
+uart_rx_it
+data_rx
+rx_data_slave
+ADC_VAL
+temp

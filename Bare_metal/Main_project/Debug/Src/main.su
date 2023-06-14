@@ -1,0 +1,13 @@
+../Src/main.c:66:6:I2C_Init	8	static
+../Src/main.c:87:6:I2C_StartTransmission	16	static
+../Src/main.c:111:6:I2C_StopTransmission	8	static
+../Src/main.c:120:6:I2C_WriteByte	16	static
+../Src/main.c:129:9:I2C_ReadByte	16	static
+../Src/main.c:146:6:OLED_Init	8	static
+../Src/main.c:179:6:OLED_WriteData	16	static
+../Src/main.c:188:9:BMP280_ReadPressure	16	static
+../Src/main.c:207:6:LIS3DH_ReadAccelerometer	32	static
+../Src/main.c:231:6:OLED_DisplayChar	24	static
+../Src/main.c:238:6:OLED_DisplayString	24	static
+../Src/main.c:247:6:OLED_DisplayInt	40	static
+../Src/main.c:253:5:main	24	static

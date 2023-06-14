@@ -1,0 +1,10 @@
+16:56:48 **** Incremental Build of configuration Debug for project UART_RX_GPT ****
+make -j7 all 
+arm-none-eabi-size   UART_RX_GPT.elf 
+   text	   data	    bss	    dec	    hex	filename
+    584	      8	   1568	   2160	    870	UART_RX_GPT.elf
+Finished building: default.size.stdout
+ 
+
+16:56:48 Build Finished. 0 errors, 0 warnings. (took 139ms)
+

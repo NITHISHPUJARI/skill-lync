@@ -1,0 +1,9 @@
+main.c:67:6:uartTask	1
+main.c:79:6:ledTask	2
+main.c:94:6:TimerCallback	3
+main.c:115:5:main	1
+main.c:166:6:SystemClock_Config	3
+main.c:207:13:MX_USART2_UART_Init	5
+main.c:255:13:MX_GPIO_Init	1
+main.c:298:6:HAL_TIM_PeriodElapsedCallback	2
+main.c:315:6:Error_Handler	1

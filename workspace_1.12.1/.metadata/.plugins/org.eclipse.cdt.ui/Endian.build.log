@@ -1,0 +1,15 @@
+16:38:43 **** Build of configuration Debug for project Endian ****
+make all 
+Building file: ../endian.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"endian.d" -MT"endian.o" -o "endian.o" "../endian.c"
+Finished building: ../endian.c
+ 
+Building target: Endian
+Invoking: MacOS X C Linker
+gcc  -o "Endian"  ./endian.o   
+Finished building target: Endian
+ 
+
+16:38:44 Build Finished. 0 errors, 0 warnings. (took 1s.23ms)
+

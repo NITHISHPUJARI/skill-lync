@@ -1,0 +1,10 @@
+main.c:71:6:Input1	1
+main.c:80:6:Input2	1
+main.c:89:6:Input3	1
+main.c:99:6:Output	5
+main.c:139:5:main	1
+main.c:191:6:SystemClock_Config	3
+main.c:232:13:MX_USART2_UART_Init	5
+main.c:280:13:MX_GPIO_Init	1
+main.c:313:6:HAL_TIM_PeriodElapsedCallback	2
+main.c:330:6:Error_Handler	1

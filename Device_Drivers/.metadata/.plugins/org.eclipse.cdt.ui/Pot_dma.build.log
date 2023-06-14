@@ -1,0 +1,10 @@
+12:41:32 **** Incremental Build of configuration Debug for project Pot_dma ****
+make -j7 all 
+arm-none-eabi-size   Pot_dma.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10572	     20	   1764	  12356	   3044	Pot_dma.elf
+Finished building: default.size.stdout
+ 
+
+12:41:32 Build Finished. 0 errors, 0 warnings. (took 297ms)
+
