@@ -1,0 +1,1 @@
+cmd_/home/skill-lync/Desktop/LDD/workspace/hello_cmdline/hello_cmdline.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/skill-lync/Desktop/LDD/workspace/hello_cmdline/hello_cmdline.ko /home/skill-lync/Desktop/LDD/workspace/hello_cmdline/hello_cmdline.o /home/skill-lync/Desktop/LDD/workspace/hello_cmdline/hello_cmdline.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/skill-lync/Desktop/LDD/workspace/usb_gpt/usb_gpt.mod := printf '%s\n'   usb_gpt.o | awk '!x[$$0]++ { print("/home/skill-lync/Desktop/LDD/workspace/usb_gpt/"$$0) }' > /home/skill-lync/Desktop/LDD/workspace/usb_gpt/usb_gpt.mod

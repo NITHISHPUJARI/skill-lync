@@ -1,0 +1,1 @@
+cmd_/workspace/usbdriver/string/stri.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /workspace/usbdriver/string/stri.ko /workspace/usbdriver/string/stri.o /workspace/usbdriver/string/stri.mod.o;  true

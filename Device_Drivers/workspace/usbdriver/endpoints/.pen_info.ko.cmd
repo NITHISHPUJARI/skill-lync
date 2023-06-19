@@ -1,0 +1,1 @@
+cmd_/workspace/usbdriver/endpoints/pen_info.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /workspace/usbdriver/endpoints/pen_info.ko /workspace/usbdriver/endpoints/pen_info.o /workspace/usbdriver/endpoints/pen_info.mod.o;  true

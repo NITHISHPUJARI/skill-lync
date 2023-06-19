@@ -1,0 +1,1 @@
+cmd_/home/skill-lync/Desktop/LDD/workspace/hellomodule/hello.mod := printf '%s\n'   hello.o | awk '!x[$$0]++ { print("/home/skill-lync/Desktop/LDD/workspace/hellomodule/"$$0) }' > /home/skill-lync/Desktop/LDD/workspace/hellomodule/hello.mod

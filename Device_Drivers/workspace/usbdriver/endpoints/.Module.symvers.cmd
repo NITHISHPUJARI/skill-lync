@@ -1,0 +1,1 @@
+cmd_/workspace/usbdriver/endpoints/Module.symvers := sed 's/ko$$/o/' /workspace/usbdriver/endpoints/modules.order | scripts/mod/modpost -m -a  -o /workspace/usbdriver/endpoints/Module.symvers -e -i Module.symvers   -T -

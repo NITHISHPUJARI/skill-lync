@@ -1,0 +1,1 @@
+cmd_/home/skill-lync/Desktop/LDD/workspace/usb_gpt/usb_gpt.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/skill-lync/Desktop/LDD/workspace/usb_gpt/usb_gpt.ko /home/skill-lync/Desktop/LDD/workspace/usb_gpt/usb_gpt.o /home/skill-lync/Desktop/LDD/workspace/usb_gpt/usb_gpt.mod.o;  true

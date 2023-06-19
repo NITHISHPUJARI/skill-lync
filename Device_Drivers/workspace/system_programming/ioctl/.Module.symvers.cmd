@@ -1,0 +1,1 @@
+cmd_/workspace/system_programming/ioctl/Module.symvers := sed 's/ko$$/o/' /workspace/system_programming/ioctl/modules.order | scripts/mod/modpost -m -a  -o /workspace/system_programming/ioctl/Module.symvers -e -i Module.symvers   -T -

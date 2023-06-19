@@ -1,0 +1,1 @@
+cmd_/workspace/system_programming/ioctl/device_driver.mod := printf '%s\n'   device_driver.o | awk '!x[$$0]++ { print("/workspace/system_programming/ioctl/"$$0) }' > /workspace/system_programming/ioctl/device_driver.mod

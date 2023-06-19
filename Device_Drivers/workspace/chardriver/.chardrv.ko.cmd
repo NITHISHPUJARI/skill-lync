@@ -1,0 +1,1 @@
+cmd_/home/skill-lync/Desktop/LDD/workspace/chardriver/chardrv.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/skill-lync/Desktop/LDD/workspace/chardriver/chardrv.ko /home/skill-lync/Desktop/LDD/workspace/chardriver/chardrv.o /home/skill-lync/Desktop/LDD/workspace/chardriver/chardrv.mod.o;  true

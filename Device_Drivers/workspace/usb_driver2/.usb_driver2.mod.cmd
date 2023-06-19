@@ -1,0 +1,1 @@
+cmd_/home/skill-lync/Desktop/LDD/workspace/usb_driver2/usb_driver2.mod := printf '%s\n'   usb_driver2.o | awk '!x[$$0]++ { print("/home/skill-lync/Desktop/LDD/workspace/usb_driver2/"$$0) }' > /home/skill-lync/Desktop/LDD/workspace/usb_driver2/usb_driver2.mod

@@ -1,0 +1,1 @@
+cmd_/home/skill-lync/Desktop/LDD/workspace/usb_gpt/Module.symvers := sed 's/ko$$/o/' /home/skill-lync/Desktop/LDD/workspace/usb_gpt/modules.order | scripts/mod/modpost -m -a  -o /home/skill-lync/Desktop/LDD/workspace/usb_gpt/Module.symvers -e -i Module.symvers   -T -

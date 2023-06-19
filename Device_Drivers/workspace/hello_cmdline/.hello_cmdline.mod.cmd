@@ -1,0 +1,1 @@
+cmd_/home/skill-lync/Desktop/LDD/workspace/hello_cmdline/hello_cmdline.mod := printf '%s\n'   hello_cmdline.o | awk '!x[$$0]++ { print("/home/skill-lync/Desktop/LDD/workspace/hello_cmdline/"$$0) }' > /home/skill-lync/Desktop/LDD/workspace/hello_cmdline/hello_cmdline.mod
