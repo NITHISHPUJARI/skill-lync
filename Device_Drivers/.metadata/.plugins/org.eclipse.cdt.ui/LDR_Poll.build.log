@@ -1,4 +1,4 @@
-09:16:11 **** Incremental Build of configuration Debug for project LDR_Poll ****
+13:28:23 **** Incremental Build of configuration Debug for project LDR_Poll ****
 make -j7 all 
 arm-none-eabi-size   LDR_Poll.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   LDR_Poll.elf
 Finished building: default.size.stdout
  
 
-09:16:11 Build Finished. 0 errors, 0 warnings. (took 283ms)
+13:28:23 Build Finished. 0 errors, 0 warnings. (took 135ms)
 

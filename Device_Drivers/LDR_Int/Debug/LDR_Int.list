@@ -905,9 +905,9 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* hadc)
  80005bc:	f001 f902 	bl	80017c4 <HAL_GPIO_Init>
 
     /* ADC1 interrupt Init */
-    HAL_NVIC_SetPriority(ADC1_IRQn, 0, 0);
+    HAL_NVIC_SetPriority(ADC1_IRQn, 2, 0);
  80005c0:	2200      	movs	r2, #0
- 80005c2:	2100      	movs	r1, #0
+ 80005c2:	2102      	movs	r1, #2
  80005c4:	200c      	movs	r0, #12
  80005c6:	f001 f8cb 	bl	8001760 <HAL_NVIC_SetPriority>
     HAL_NVIC_EnableIRQ(ADC1_IRQn);

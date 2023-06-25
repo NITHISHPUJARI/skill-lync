@@ -36,9 +36,9 @@ int main()
 
 	while(1)
 	{
-		uart_str("Electronics\r\n");
-		delay(200);
-		uart_str("Embedded\r\n");
+		//uart_str("Electronics\r\n");
+		//delay(200);
+		uart_str("SKILL LYNC\r\n");
 		delay(200);
 	}
 }

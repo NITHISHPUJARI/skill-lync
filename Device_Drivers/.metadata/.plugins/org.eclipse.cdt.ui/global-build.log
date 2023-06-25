@@ -1,21 +1,56 @@
-16:49:44 **** Incremental Build of configuration Debug for project I2C_BMP280 ****
+11:03:32 **** Incremental Build of configuration Debug for project Switch_count ****
 make -j7 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G070xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "I2C_BMP280.elf" @"objects.list"   -mcpu=cortex-m0plus -T"/Users/nithish/STM32CubeIDE/Device_Drivers/I2C_BMP280/STM32G070RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="I2C_BMP280.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: I2C_BMP280.elf
+arm-none-eabi-gcc -o "Switch_count.elf" @"objects.list"   -mcpu=cortex-m0plus -T"/Users/nithish/STM32CubeIDE/Device_Drivers/Switch_count/STM32G070RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Switch_count.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Switch_count.elf
  
-arm-none-eabi-size   I2C_BMP280.elf 
-arm-none-eabi-objdump -h -S  I2C_BMP280.elf  > "I2C_BMP280.list"
+arm-none-eabi-size   Switch_count.elf 
+arm-none-eabi-objdump -h -S  Switch_count.elf  > "Switch_count.list"
    text	   data	    bss	    dec	    hex	filename
-  18060	     20	   1756	  19836	   4d7c	I2C_BMP280.elf
+   5316	     20	   1572	   6908	   1afc	Switch_count.elf
 Finished building: default.size.stdout
  
-Finished building: I2C_BMP280.list
+Finished building: Switch_count.list
  
-16:49:49 **** Incremental Build of configuration Debug for project I2C_BMP280 ****
+11:03:37 **** Incremental Build of configuration Debug for project Switch_count ****
 make -j7 all 
-arm-none-eabi-size   I2C_BMP280.elf 
+arm-none-eabi-size   Switch_count.elf 
    text	   data	    bss	    dec	    hex	filename
-  18060	     20	   1756	  19836	   4d7c	I2C_BMP280.elf
+   5316	     20	   1572	   6908	   1afc	Switch_count.elf
 Finished building: default.size.stdout
+ 
+11:09:05 **** Incremental Build of configuration Debug for project Switch_count ****
+make -j7 all 
+arm-none-eabi-size   Switch_count.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5316	     20	   1572	   6908	   1afc	Switch_count.elf
+Finished building: default.size.stdout
+ 
+11:09:42 **** Incremental Build of configuration Debug for project Switch_count ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G070xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Switch_count.elf" @"objects.list"   -mcpu=cortex-m0plus -T"/Users/nithish/STM32CubeIDE/Device_Drivers/Switch_count/STM32G070RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Switch_count.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Switch_count.elf
+ 
+arm-none-eabi-size   Switch_count.elf 
+arm-none-eabi-objdump -h -S  Switch_count.elf  > "Switch_count.list"
+   text	   data	    bss	    dec	    hex	filename
+   5320	     20	   1572	   6912	   1b00	Switch_count.elf
+Finished building: default.size.stdout
+ 
+Finished building: Switch_count.list
+ 
+11:10:19 **** Incremental Build of configuration Debug for project Switch_count ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G070xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Switch_count.elf" @"objects.list"   -mcpu=cortex-m0plus -T"/Users/nithish/STM32CubeIDE/Device_Drivers/Switch_count/STM32G070RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Switch_count.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Switch_count.elf
+ 
+arm-none-eabi-size   Switch_count.elf 
+arm-none-eabi-objdump -h -S  Switch_count.elf  > "Switch_count.list"
+   text	   data	    bss	    dec	    hex	filename
+   5316	     20	   1572	   6908	   1afc	Switch_count.elf
+Finished building: default.size.stdout
+ 
+Finished building: Switch_count.list
  

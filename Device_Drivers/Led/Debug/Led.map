@@ -2618,17 +2618,17 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
  .debug_macro   0x00000000000131ab      0x1c9 ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.o
  .debug_macro   0x0000000000013374      0x1f3 ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.o
 
-.debug_line     0x0000000000000000     0x54b9
- .debug_line    0x0000000000000000      0x78e ./Core/Src/main.o
- .debug_line    0x000000000000078e      0x6ce ./Core/Src/stm32g0xx_hal_msp.o
- .debug_line    0x0000000000000e5c      0x733 ./Core/Src/stm32g0xx_it.o
- .debug_line    0x000000000000158f      0x741 ./Core/Src/system_stm32g0xx.o
- .debug_line    0x0000000000001cd0       0x89 ./Core/Startup/startup_stm32g070rbtx.o
- .debug_line    0x0000000000001d59      0x9e4 ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.o
- .debug_line    0x000000000000273d      0xaf8 ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.o
- .debug_line    0x0000000000003235      0xae4 ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.o
- .debug_line    0x0000000000003d19      0x914 ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.o
- .debug_line    0x000000000000462d      0xe8c ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.o
+.debug_line     0x0000000000000000     0x54bb
+ .debug_line    0x0000000000000000      0x790 ./Core/Src/main.o
+ .debug_line    0x0000000000000790      0x6ce ./Core/Src/stm32g0xx_hal_msp.o
+ .debug_line    0x0000000000000e5e      0x733 ./Core/Src/stm32g0xx_it.o
+ .debug_line    0x0000000000001591      0x741 ./Core/Src/system_stm32g0xx.o
+ .debug_line    0x0000000000001cd2       0x89 ./Core/Startup/startup_stm32g070rbtx.o
+ .debug_line    0x0000000000001d5b      0x9e4 ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.o
+ .debug_line    0x000000000000273f      0xaf8 ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.o
+ .debug_line    0x0000000000003237      0xae4 ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.o
+ .debug_line    0x0000000000003d1b      0x914 ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.o
+ .debug_line    0x000000000000462f      0xe8c ./Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.o
 
 .debug_str      0x0000000000000000    0x798c7
  .debug_str     0x0000000000000000    0x787e7 ./Core/Src/main.o

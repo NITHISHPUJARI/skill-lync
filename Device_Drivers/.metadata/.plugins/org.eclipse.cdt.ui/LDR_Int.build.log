@@ -1,17 +1,10 @@
-09:24:28 **** Incremental Build of configuration Debug for project LDR_Int ****
+19:05:33 **** Incremental Build of configuration Debug for project LDR_Int ****
 make -j7 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G070xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "LDR_Int.elf" @"objects.list"   -mcpu=cortex-m0plus -T"/Users/nithish/STM32CubeIDE/Device_Drivers/LDR_Int/STM32G070RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LDR_Int.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: LDR_Int.elf
- 
 arm-none-eabi-size   LDR_Int.elf 
-arm-none-eabi-objdump -h -S  LDR_Int.elf  > "LDR_Int.list"
    text	   data	    bss	    dec	    hex	filename
    9516	     20	   1676	  11212	   2bcc	LDR_Int.elf
 Finished building: default.size.stdout
  
-Finished building: LDR_Int.list
- 
 
-09:24:29 Build Finished. 0 errors, 0 warnings. (took 620ms)
+19:05:33 Build Finished. 0 errors, 0 warnings. (took 196ms)
 
