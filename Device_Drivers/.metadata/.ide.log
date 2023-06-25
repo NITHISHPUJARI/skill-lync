@@ -2911,3 +2911,13 @@
 2023-06-25 11:06:15,366 [INFO] ADCParametersView:116 -                Rank 1 : false
 2023-06-25 11:06:15,421 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
 2023-06-25 11:06:15,445 [INFO] ADCParametersView:116 -                Rank 1 : false
+2023-06-25 12:09:25,082 [INFO] Activator:176 - 
+
+
+2023-06-25 12:09:25,084 [INFO] Activator:177 - !SESSION log4j initialized
+2023-06-25 12:09:32,421 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2023-06-25 12:09:33,046 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2023-06-25 12:09:35,183 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2023-06-25 12:09:57,971 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-06-25 12:09:57,972 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-06-25 12:09:57,972 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
