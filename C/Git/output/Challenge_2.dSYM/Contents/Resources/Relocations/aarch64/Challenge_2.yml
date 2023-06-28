@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/nithish/Documents/SkillLync/C/Git/output/Challenge_2'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _retract, symObjAddr: 0x0, symBinAddr: 0x100003CB8, symSize: 0x7C }
+  - { offsetInCU: 0x69, offset: 0x69, size: 0x8, addend: 0x0, symName: _retract, symObjAddr: 0x0, symBinAddr: 0x100003CB8, symSize: 0x7C }
+  - { offsetInCU: 0x8D, offset: 0x8D, size: 0x8, addend: 0x0, symName: _extend, symObjAddr: 0x7C, symBinAddr: 0x100003D34, symSize: 0x7C }
+  - { offsetInCU: 0xB1, offset: 0xB1, size: 0x8, addend: 0x0, symName: _update, symObjAddr: 0xF8, symBinAddr: 0x100003DB0, symSize: 0x9C }
+  - { offsetInCU: 0xD5, offset: 0xD5, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x194, symBinAddr: 0x100003E4C, symSize: 0x50 }
+...
