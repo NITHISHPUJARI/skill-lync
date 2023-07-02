@@ -37,13 +37,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  16 .debug_macro  00013567  00000000  00000000  00024e48  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   000054bb  00000000  00000000  000383af  2**0
+ 17 .debug_line   000054b9  00000000  00000000  000383af  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    000798c7  00000000  00000000  0003d86a  2**0
+ 18 .debug_str    000798c7  00000000  00000000  0003d868  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000050  00000000  00000000  000b7131  2**0
+ 19 .comment      00000050  00000000  00000000  000b712f  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00000d80  00000000  00000000  000b7184  2**2
+ 20 .debug_frame  00000d80  00000000  00000000  000b7180  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -262,7 +262,7 @@ int main(void)
     /* USER CODE END WHILE */
 
 
-	 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6 | GPIO_PIN_8, GPIO_PIN_SET);
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6 | GPIO_PIN_8, GPIO_PIN_SET);
  8000228:	23a0      	movs	r3, #160	; 0xa0
  800022a:	0059      	lsls	r1, r3, #1
  800022c:	23a0      	movs	r3, #160	; 0xa0
@@ -312,7 +312,7 @@ int main(void)
  8000284:	009b      	lsls	r3, r3, #2
  8000286:	0018      	movs	r0, r3
  8000288:	f000 f992 	bl	80005b0 <HAL_Delay>
-	 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6 | GPIO_PIN_8, GPIO_PIN_SET);
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6 | GPIO_PIN_8, GPIO_PIN_SET);
  800028c:	e7cc      	b.n	8000228 <main+0x10>
 
 0800028e <SystemClock_Config>:

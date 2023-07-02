@@ -1,0 +1,17 @@
+01:26:38 **** Incremental Build of configuration Debug for project LCD_I2C ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G070xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -I"/Users/nithish/STM32CubeIDE/workspace_1.12.1/LCD_I2C/middleware/FreeRTOS/portable/GCC/ARM_CM0" -I"/Users/nithish/STM32CubeIDE/workspace_1.12.1/LCD_I2C/middleware/FreeRTOS/portable/MemMang" -I"/Users/nithish/STM32CubeIDE/workspace_1.12.1/LCD_I2C/middleware/FreeRTOS/include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LCD_I2C.elf" @"objects.list"   -mcpu=cortex-m0plus -T"/Users/nithish/STM32CubeIDE/workspace_1.12.1/LCD_I2C/STM32G070RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCD_I2C.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCD_I2C.elf
+ 
+arm-none-eabi-size   LCD_I2C.elf 
+arm-none-eabi-objdump -h -S  LCD_I2C.elf  > "LCD_I2C.list"
+   text	   data	    bss	    dec	    hex	filename
+   9860	     20	   1796	  11676	   2d9c	LCD_I2C.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCD_I2C.list
+ 
+
+01:26:38 Build Finished. 0 errors, 0 warnings. (took 480ms)
+

@@ -1,4 +1,4 @@
-12:15:15 **** Incremental Build of configuration Debug for project Temp_internal ****
+14:12:48 **** Build of configuration Debug for project Temp_internal ****
 make -j7 all 
 arm-none-eabi-size   Temp_internal.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   Temp_internal.elf
 Finished building: default.size.stdout
  
 
-12:15:16 Build Finished. 0 errors, 0 warnings. (took 210ms)
+14:12:49 Build Finished. 0 errors, 0 warnings. (took 184ms)
 

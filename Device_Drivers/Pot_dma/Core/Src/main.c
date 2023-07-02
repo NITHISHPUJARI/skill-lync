@@ -106,9 +106,9 @@ int main(void)
 	  HAL_ADC_Start_DMA(&hadc1, &adc_dma, 1);
 	  HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
 
-	  HAL_Delay(1000);
+	  HAL_Delay(5000);
 	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14, GPIO_PIN_RESET);
-	  HAL_Delay(1000);
+	  HAL_Delay(5000);
   }
   /* USER CODE END 3 */
 }

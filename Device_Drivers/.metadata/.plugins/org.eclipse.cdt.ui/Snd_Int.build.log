@@ -1,4 +1,4 @@
-09:59:00 **** Incremental Build of configuration Debug for project Snd_Int ****
+14:12:47 **** Build of configuration Debug for project Snd_Int ****
 make -j7 all 
 arm-none-eabi-size   Snd_Int.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   Snd_Int.elf
 Finished building: default.size.stdout
  
 
-09:59:00 Build Finished. 0 errors, 0 warnings. (took 327ms)
+14:12:47 Build Finished. 0 errors, 0 warnings. (took 184ms)
 

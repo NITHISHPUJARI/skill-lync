@@ -267,8 +267,8 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 	  HAL_ADC_Start_DMA(&hadc1, &adc_dma, 1);
- 8000230:	490e      	ldr	r1, [pc, #56]	; (800026c <main+0x54>)
- 8000232:	4b0f      	ldr	r3, [pc, #60]	; (8000270 <main+0x58>)
+ 8000230:	490d      	ldr	r1, [pc, #52]	; (8000268 <main+0x50>)
+ 8000232:	4b0e      	ldr	r3, [pc, #56]	; (800026c <main+0x54>)
  8000234:	2201      	movs	r2, #1
  8000236:	0018      	movs	r0, r3
  8000238:	f000 fdf4 	bl	8000e24 <HAL_ADC_Start_DMA>
@@ -279,27 +279,26 @@ int main(void)
  8000242:	0018      	movs	r0, r3
  8000244:	f001 fe35 	bl	8001eb2 <HAL_GPIO_TogglePin>
 
-	  HAL_Delay(1000);
- 8000248:	23fa      	movs	r3, #250	; 0xfa
- 800024a:	009b      	lsls	r3, r3, #2
- 800024c:	0018      	movs	r0, r3
- 800024e:	f000 fad5 	bl	80007fc <HAL_Delay>
+	  HAL_Delay(5000);
+ 8000248:	4b09      	ldr	r3, [pc, #36]	; (8000270 <main+0x58>)
+ 800024a:	0018      	movs	r0, r3
+ 800024c:	f000 fad6 	bl	80007fc <HAL_Delay>
 	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14, GPIO_PIN_RESET);
- 8000252:	2380      	movs	r3, #128	; 0x80
- 8000254:	01db      	lsls	r3, r3, #7
- 8000256:	4807      	ldr	r0, [pc, #28]	; (8000274 <main+0x5c>)
- 8000258:	2200      	movs	r2, #0
- 800025a:	0019      	movs	r1, r3
- 800025c:	f001 fe0c 	bl	8001e78 <HAL_GPIO_WritePin>
-	  HAL_Delay(1000);
- 8000260:	23fa      	movs	r3, #250	; 0xfa
- 8000262:	009b      	lsls	r3, r3, #2
- 8000264:	0018      	movs	r0, r3
- 8000266:	f000 fac9 	bl	80007fc <HAL_Delay>
+ 8000250:	2380      	movs	r3, #128	; 0x80
+ 8000252:	01db      	lsls	r3, r3, #7
+ 8000254:	4807      	ldr	r0, [pc, #28]	; (8000274 <main+0x5c>)
+ 8000256:	2200      	movs	r2, #0
+ 8000258:	0019      	movs	r1, r3
+ 800025a:	f001 fe0d 	bl	8001e78 <HAL_GPIO_WritePin>
+	  HAL_Delay(5000);
+ 800025e:	4b04      	ldr	r3, [pc, #16]	; (8000270 <main+0x58>)
+ 8000260:	0018      	movs	r0, r3
+ 8000262:	f000 facb 	bl	80007fc <HAL_Delay>
 	  HAL_ADC_Start_DMA(&hadc1, &adc_dma, 1);
- 800026a:	e7e1      	b.n	8000230 <main+0x18>
- 800026c:	200000e8 	.word	0x200000e8
- 8000270:	20000028 	.word	0x20000028
+ 8000266:	e7e3      	b.n	8000230 <main+0x18>
+ 8000268:	200000e8 	.word	0x200000e8
+ 800026c:	20000028 	.word	0x20000028
+ 8000270:	00001388 	.word	0x00001388
  8000274:	50000400 	.word	0x50000400
 
 08000278 <SystemClock_Config>:

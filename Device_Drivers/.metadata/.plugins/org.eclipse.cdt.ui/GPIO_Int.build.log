@@ -1,17 +1,10 @@
-13:31:53 **** Incremental Build of configuration Debug for project GPIO_Int ****
+14:12:40 **** Build of configuration Debug for project GPIO_Int ****
 make -j7 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G070xx -c -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "GPIO_Int.elf" @"objects.list"   -mcpu=cortex-m0plus -T"/Users/nithish/STM32CubeIDE/Device_Drivers/GPIO_Int/STM32G070RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="GPIO_Int.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: GPIO_Int.elf
- 
 arm-none-eabi-size   GPIO_Int.elf 
-arm-none-eabi-objdump -h -S  GPIO_Int.elf  > "GPIO_Int.list"
    text	   data	    bss	    dec	    hex	filename
    5672	     20	   1572	   7264	   1c60	GPIO_Int.elf
 Finished building: default.size.stdout
  
-Finished building: GPIO_Int.list
- 
 
-13:31:54 Build Finished. 0 errors, 0 warnings. (took 737ms)
+14:12:40 Build Finished. 0 errors, 0 warnings. (took 188ms)
 

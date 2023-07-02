@@ -1,4 +1,4 @@
-14:36:41 **** Build of configuration Debug for project Led_switch ****
+14:12:43 **** Build of configuration Debug for project Led_switch ****
 make -j7 all 
 arm-none-eabi-size   Led_switch.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   Led_switch.elf
 Finished building: default.size.stdout
  
 
-14:36:41 Build Finished. 0 errors, 0 warnings. (took 198ms)
+14:12:43 Build Finished. 0 errors, 0 warnings. (took 205ms)
 

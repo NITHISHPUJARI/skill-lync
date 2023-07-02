@@ -1,4 +1,4 @@
-10:10:08 **** Incremental Build of configuration Debug for project Snd_dma ****
+14:12:48 **** Build of configuration Debug for project Snd_dma ****
 make -j7 all 
 arm-none-eabi-size   Snd_dma.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   Snd_dma.elf
 Finished building: default.size.stdout
  
 
-10:10:08 Build Finished. 0 errors, 0 warnings. (took 312ms)
+14:12:48 Build Finished. 0 errors, 0 warnings. (took 195ms)
 

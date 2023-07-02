@@ -1,0 +1,13 @@
+/*
+ * wire.h
+ *
+ *  Created on: Jun 29, 2023
+ *      Author: nithish
+ */
+
+#ifndef FREERTOS_INCLUDE_WIRE_H_
+#define FREERTOS_INCLUDE_WIRE_H_
+
+
+
+#endif /* FREERTOS_INCLUDE_WIRE_H_ */

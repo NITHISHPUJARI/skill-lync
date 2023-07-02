@@ -1,0 +1,11 @@
+lcd_i2c.c:71:6:LCD_Init	1
+lcd_i2c.c:101:6:LCD_Clear	1
+lcd_i2c.c:107:6:LCD_SetCursor	2
+lcd_i2c.c:118:6:LCD_Print	1
+lcd_i2c.c:123:6:LCD_BacklightOn	1
+lcd_i2c.c:130:6:LCD_BacklightOff	1
+lcd_i2c.c:137:13:LCD_SendCmd	1
+lcd_i2c.c:142:13:LCD_SendData	1
+lcd_i2c.c:147:13:LCD_SendHalfByte	1
+lcd_i2c.c:156:13:LCD_SendByte	3
+lcd_i2c.c:192:13:LCD_SendString	2
