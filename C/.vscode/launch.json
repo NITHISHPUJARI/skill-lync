@@ -2,12 +2,14 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "C/C++ Runner: Debug Session",
+      "name": "Launch Tests",
       "type": "lldb",
       "request": "launch",
+      "program": "${workspaceFolder}/C/Pratice_problems/Multiplication_Table/output/test_multiplication_table",
       "args": [],
-      "cwd": "/Users/nithish/Documents/SkillLync/C",
-      "program": "/Users/nithish/Documents/SkillLync/C/build/Debug/outDebug"
+      "cwd": "${workspaceFolder}/C/Pratice_problems/Multiplication_Table/output",
+      "preLaunchTask": "C/C++: Build Multiplication Table Test",
+      "externalConsole": true
     }
   ]
 }
