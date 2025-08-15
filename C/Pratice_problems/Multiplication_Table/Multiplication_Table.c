@@ -22,8 +22,15 @@ char* generate_multiplication_tables(int start_table, int end_table) {
         char buffer[100];
 
         for (int k = i; k < i + 5 && k <= end_table; k++) {
-            sprintf(buffer, "%d x 10 = %d", k, k * 10);
-            column_widths[tables_in_row] = strlen(buffer);
+            int max_width = 0;
+            for (int j = 1; j <= 10; j++) {
+                sprintf(buffer, "%d x %d = %d", k, j, k * j);
+                int current_width = strlen(buffer);
+                if (current_width > max_width) {
+                    max_width = current_width;
+                }
+            }
+            column_widths[tables_in_row] = max_width;
             tables_in_row++;
         }
 
@@ -68,7 +75,8 @@ int main() {
     char* tables = generate_multiplication_tables(start_table, end_table);
 
     if (tables == NULL) {
-        printf("Invalid input! 🚫\nPlease ensure the starting number is positive and less than or equal to the ending number.\n");
+        printf("Invalid input! 🚫\n");
+        printf("Please ensure the starting number is positive and less than or equal to the ending number.\n");
         return 1;
     }
 
@@ -78,3 +86,5 @@ int main() {
     return 0;
 }
 #endif
+
+
